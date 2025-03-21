@@ -10,7 +10,7 @@ then
     print_domain_subdomain "$2.$1" "$2"
 else
     print_domain_subdomain "www.$1" "www"
-    print_domain_subdomain "lb-01.$1" "52.71.6.91"
-    print_domain_subdomain "web-01.$1" "3.87.215.189"
-    print_domain_subdomain "web-02.$1" "100.26.112.230"
+    print_domain_subdomain "lb-01.$1" "lb-01"
+    print_domain_subdomain "web-01.$1" "web-01"
+    print_domain_subdomain "web-02.$1" "web-02"
 fi
